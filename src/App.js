@@ -1,5 +1,9 @@
-function App() {
-  return <div className="App">Blog App</div>;
-}
+import { TopBar } from './components/topbar/TopBar';
 
-export default App;
+export const App = () => {
+  return (
+    <div>
+      <TopBar />
+    </div>
+  );
+};
