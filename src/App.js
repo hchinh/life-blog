@@ -1,9 +1,13 @@
-import { TopBar } from './components/topbar/TopBar';
+import TopBar from './components/topbar/TopBar';
+import Home from './pages/Home/Home';
 
-export const App = () => {
+const App = () => {
   return (
-    <div>
+    <>
       <TopBar />
-    </div>
+      <Home />
+    </>
   );
 };
+
+export default App;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './topbar.scss';
 
-export const TopBar = () => {
+const TopBar = () => {
   return (
     <div className="top">
       <div className="top-left">
@@ -30,3 +30,5 @@ export const TopBar = () => {
     </div>
   );
 };
+
+export default TopBar;
