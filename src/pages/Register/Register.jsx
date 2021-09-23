@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './register.scss';
 
 const Register = () => {
@@ -12,9 +13,11 @@ const Register = () => {
         <input type="text" className="register-input" placeholder="Enter your email" />
         <label>Password</label>
         <input type="password" className="register-input" placeholder="Enter your password" />
-        <button className="register-button">Register</button>
+        <button className="register-btn">Register</button>
       </form>
-      <button className="login-button">Login</button>
+      <button className="login-btn">
+        <Link to="/login">Login</Link>
+      </button>
     </div>
   );
 };

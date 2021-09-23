@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './post.scss';
 
 const Post = () => {
@@ -13,7 +14,9 @@ const Post = () => {
         <div className="post__categories">
           <span className="post__category">Technology</span>
         </div>
-        <div className="post__title">How to install extensions in VS Code</div>
+        <div className="post__title">
+          <Link to="/post/1">How to install extensions in VS Code</Link>
+        </div>
         <hr />
         <div className="post__date">1 hour ago</div>
       </div>
