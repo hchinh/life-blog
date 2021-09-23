@@ -1,11 +1,14 @@
 import TopBar from './components/topbar/TopBar';
-import Home from './pages/Home/Home';
+import Settings from './pages/Settings/Settings';
 
 const App = () => {
   return (
     <>
       <TopBar />
-      <Home />
+      {/* <Home /> */}
+      {/* <Single /> */}
+      {/* <Write /> */}
+      <Settings />
     </>
   );
 };
