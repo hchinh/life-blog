@@ -1,5 +1,5 @@
 import TopBar from './components/topbar/TopBar';
-import Settings from './pages/Settings/Settings';
+import Register from './pages/Register/Register';
 
 const App = () => {
   return (
@@ -8,7 +8,9 @@ const App = () => {
       {/* <Home /> */}
       {/* <Single /> */}
       {/* <Write /> */}
-      <Settings />
+      {/* <Settings /> */}
+      {/* <Login /> */}
+      <Register />
     </>
   );
 };
